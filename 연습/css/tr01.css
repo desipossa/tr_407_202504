@@ -1,0 +1,54 @@
+* {
+    outline: 1px solid tomato--;
+}
+
+.inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.itm {
+    background: #ddd;
+}
+
+
+.main_content {
+    padding: 120px 0;
+}
+
+.main_content .inner {
+    display: flex;
+    gap: 30px;
+}
+
+.main_content .inner .itm {
+    flex: 1;
+}
+
+
+.main_event {
+    padding: 120px 0;
+    background: #f9f9f9;
+}
+
+.main_event .inner {
+    display: flex;
+    gap: 30px;
+}
+
+.main_event .inner .itm {
+    flex: 1;
+}
+
+.main_customer {
+    padding: 120px 0;
+}
+
+.main_customer .inner {
+    display: flex;
+    gap: 30px;
+}
+
+.main_customer .inner .itm {
+    flex: 1;
+}
